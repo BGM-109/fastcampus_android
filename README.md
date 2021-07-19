@@ -5,3 +5,5 @@
 2. 로또 번호 생성기 
   - https://www.notion.so/7e646d993cc34f8297a2e21d0fa0c4bc
 
+3. 비밀 다이어리 
+  - https://www.notion.so/da76d420abca411aa94c971d22c111e2
