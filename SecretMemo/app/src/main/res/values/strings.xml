@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SecretMemo</string>
+    <string name="headerText">비밀 메모</string>
+</resources>
