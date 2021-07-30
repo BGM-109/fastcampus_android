@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/center"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#ef9a9a"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/right"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/center"
+        android:layout_toRightOf="@+id/center"
+        android:background="#f48fb1" />
+
+    <TextView
+        android:id="@+id/left"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/center"
+        android:layout_toStartOf="@+id/center"
+        android:background="#ce93d8" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/center"
+        android:layout_alignEnd="@+id/center"
+        android:background="#9fa8da" />
+    <TextView
+        android:id="@+id/bottom"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/center"
+        android:layout_alignEnd="@+id/center"
+        android:background="#b39ddb" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#90caf9"
+        android:layout_alignStart="@id/left"
+        android:layout_below="@id/left"
+        />
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#81d4fa"
+        android:layout_alignStart="@id/left"
+        android:layout_above="@id/left"
+        />
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#c5e1a5"
+        android:layout_alignEnd="@id/right"
+        android:layout_below="@id/right"/>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#a5d6a7"
+        android:layout_alignEnd="@id/right"
+        android:layout_above="@id/right"/>
+
+
+
+</RelativeLayout>

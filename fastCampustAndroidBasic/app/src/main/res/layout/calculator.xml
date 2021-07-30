@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:fillViewport="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/number1"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="1"
+                android:layout_marginRight="10dp"
+                />
+            <Button
+                android:id="@+id/number2"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="2"
+                android:layout_marginRight="10dp"
+                />
+            <Button
+                android:id="@+id/number3"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="3"
+                android:layout_marginRight="10dp"
+                />
+            <Button
+                android:id="@+id/number4"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="4"
+                android:layout_marginRight="10dp"
+                />
+            <Button
+                android:id="@+id/number5"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="5"
+                android:layout_marginRight="10dp"
+                />
+            <Button
+                android:id="@+id/number6"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="6"
+                android:layout_marginRight="10dp"
+                />
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+"
+        />
+    <Button
+        android:id="@+id/clearBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        />
+
+    <TextView
+        android:id="@+id/contentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="결과"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+
+</LinearLayout>
